@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sawan Kushwah</title>
+    <title>DevelopWithSawan</title>
     <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="website icon" type="png" href="assets/Hoodie-guy.png">
@@ -24,7 +24,7 @@
         </div></a>
         <div>
             <ul class="navbar-menu">
-                <li><a class="active" href="index.html">&lt; Home &gt;</a></li>
+                <li><a class="active" href="#content-body">&lt; Home &gt;</a></li>
                 <li><a class="" href="#latest-works">Works</a></li>
                 <li><a class="" href="#skill">Skills</a></li>
                 <li><a class="" href="#about">About</a></li>
@@ -56,14 +56,14 @@
             </div>
             <div class="body-title">
                 <!-- <h1>Talk is cheap<br>Show me the code</h1> -->
-                <h1>Full Stack Wizard: Coding<br>and Designing Magic</h1>
+                <h1>Dive into a World of Possibilities : <br>Powered by Code and Creativity.</h1>
                 <p>I design and code beautifully simple things,<br>and I love what I do.</p>
-                <a href="#">LET'S CHAT!</a>
+                <a href="#contact">LET'S CHAT!</a>
             </div>
             <div class="body-tail">
-                <h1>2</h1>
+                <h1>1</h1>
                 <p>YEARS<br>EXPERIENCE</p>
-                <h1>20</h1>
+                <h1>10</h1>
                 <p>PROJECTS<br>COMPLETED</p>
             </div>
         </div>
@@ -91,15 +91,15 @@
             <div class="background-circle"></div>
         </div>
     </section>
-    <section id="introduction" id="about">
-        <div class="cards">
+    <section id="introduction">
+        <div class="cards" id="about">
             <div class="design-card active">
                 <div>
                     <h3>UI/UX Design</h3>
                     <i class="fa-solid fa-wand-magic-sparkles"></i>
                 </div>
                 <p>Create design products with unique ideas that matters</p>
-                <a href="">20 PROJECTS</a>
+                <a href="#latest-works">PROJECTS</a>
             </div>
             <div class="design-card">
                 <div>
@@ -107,7 +107,7 @@
                     <i class="fa-solid fa-code"></i>
                 </div>
                 <p>Making the Web Look Good</p>
-                <a href="">20 PROJECTS</a>
+                <a href="#latest-works">PROJECTS</a>
             </div>
             <div class="design-card">
                 <div>
@@ -115,7 +115,7 @@
                     <i class="fa-solid fa-terminal"></i>
                 </div>
                 <p>Building the Web’s Backbone</p>
-                <a href="">20 PROJECTS</a>
+                <a href="#latest-works">PROJECTS</a>
             </div>
         </div>
         <div class="introduction-text">
@@ -140,17 +140,17 @@
             <h2>Hello! I'm Sawan Kushwah</h2>
             <h4>Coding with Efficiency</h4>
             <p>As a backend developer, I create robust and scalable web applications that handle the logic and data
-                behind the scenes. I use my skills in Python, Django, SQL, and various APIs and tools to develop and
+                behind the scenes. I use my skills in NodeJS , MongoDB , various APIs and tools to develop and
                 deploy backend systems that are secure, reliable, and efficient.</p>
         </div>
     </section>
+    <hr>
     <section id="latest-works">
         <div class="left-project">
             <div class="latest-work-title">
                 <h3>Latest Works</h3>
                 <p>Perfect solutions for digital experience</p>
             </div>
-
             <div class="project-card project-card-1">
                 <div class="title">
                     <h3>Finaco</h3>
@@ -164,10 +164,10 @@
             </div>
 
             <div class="all-projects">
-                <a href="">
+                <a href="#latest-works">
                     <h3>ALL PROJECTS</h3>
                 </a>
-                <p>* Some projects are not allowed to publish by NDA<br>if you want to see more. <a href="">CONTACT</a>
+                <p>* Some projects are not allowed to publish by NDA<br>if you want to see more. <a href="#contact">CONTACT</a>
                 </p>
             </div>
         </div>
@@ -194,8 +194,17 @@
             </div>
         </div>
     </section>
+    <hr>
     <section class="skills" id="skill">
-        <h1>My Skills</h1>
+        <h1>Key Skillset and Proficiencies</h1>
+        <div class="cards skill-card skill-intro">
+            <div>
+                <h3>Skills</h3>
+                <i class="fa-solid fa-wand-magic-sparkles" style="color: white;"></i>
+            </div>
+            <p>As a full-stack web developer, I excel in Java, data structures, and e-commerce on Shopify. My strong problem-solving, leadership, and adaptability skills empower me to thrive in innovative, collaborative digital environments, delivering top-notch solutions.</p>
+             
+        </div>
         <div class="cards">
             <div class="skill-card">
                 <img src="assets/SVGIcons/java.svg" alt="">
@@ -240,6 +249,7 @@
             
         </div>
     </section>
+    <hr>
     <section id="footer">
         <div class="footer-left" id="contact">
             <h2>Let's make something amazing together</h2>
@@ -249,7 +259,7 @@
                 <input type="text" name="name" id="" placeholder="Your name">
                 <input type="email" name="email" id="" placeholder="Email Address">
                 <div>
-                    <input type="number" name="phone-number" id="" placeholder="Phone number">
+                    <input type="tel" name="phone-number" id="" placeholder="Phone number">
                     <button type="submit">Send</button>
                 </div>
             </div>
