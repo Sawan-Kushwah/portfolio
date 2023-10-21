@@ -144,6 +144,7 @@ body::selection {
   font-size: 24px;
   transition: all 0.2s ease-in;
   cursor: pointer;
+  color: #00ffff;
 }
 
 .title-first-name:hover {
@@ -156,6 +157,7 @@ body::selection {
   color: #cacaca;
   font-family: "Raleway", sans-serif;
   cursor: pointer;
+  color: #03b5b5;
 }
 
 #header a {
@@ -175,7 +177,7 @@ body::selection {
 }
 
 .navbar-menu .active {
-  color: #64f4ac;
+  color: #04dbdb;
   font-weight: 900;
 }
 
@@ -188,7 +190,7 @@ body::selection {
 }
 
 .navbar-menu li a:hover {
-  color: #64f4ac;
+  color: #04dbdb;
   font-weight: 900;
 }
 
@@ -252,7 +254,7 @@ body::selection {
 .developer-intro p {
   padding: 5px 10px;
   margin: 0 20px 0 0;
-  background-color: #64f4ac;
+  background-color: #04dbdb;
   color: #2d2e32;
   font-size: 13px;
   font-weight: 600;
@@ -284,7 +286,7 @@ body::selection {
 
 .body-title a {
   font-size: 16px;
-  color: #64f4ac;
+  color: #00ffff;
   font-weight: 600;
   padding: 20px 0;
   margin: 20px 0;
@@ -401,7 +403,7 @@ body::selection {
 }
 
 .design-card.active {
-  background-color: #00848b;
+  background-color: #07eded;
 }
 
 .design-card.active p {
@@ -418,7 +420,7 @@ body::selection {
 }
 
 .design-card:hover div {
-  color: #64f4ac;
+  color: #00FFFF;
 }
 
 .design-card div h3 {
@@ -500,7 +502,7 @@ body::selection {
 
 .latest-work-title p {
   font-size: 14px;
-  color: #7c7d81;
+  color: #d5d6d9;
   font-weight: 400;
   margin: 0;
 }
@@ -563,7 +565,7 @@ body::selection {
 }
 
 .project-img-1 {
-  height: 50vh;
+  height: 36vh;
   top: 75px;
   left: 15px;
   object-fit: cover;
@@ -606,7 +608,7 @@ body::selection {
 }
 
 .all-projects a {
-  color: #64f4ac;
+  color: #00FFFF;
 }
 
 .all-projects a h3 {
@@ -685,7 +687,9 @@ body::selection {
   color: white;
   margin: auto;
 }
- 
+.skill-intro:hover div {
+  color: #00FFFF;
+}
 .skill-intro p{
   text-align: center;
 }
@@ -782,7 +786,7 @@ body::selection {
   margin: 0;
   border-radius: 8px;
   border: none;
-  background-color: #0ff;;
+  background-color: #04dbdb;;
   cursor: pointer;
   color: #25262a;
   font-size: 16px;
@@ -791,7 +795,7 @@ body::selection {
 }
 
 .email-form div button:hover {
-  background-color: rgb(2, 126, 126);
+  background-color: #03b4b4;
   color: white;
 }
 
@@ -831,7 +835,9 @@ body::selection {
   font-weight: 400;
   margin: 10px 0;
 }
-
+footer-email-intro a{
+  text-decoration: none;
+}
 .footer-menu {
   display: flex;
   flex-direction: column;
@@ -846,7 +852,7 @@ body::selection {
 }
 
 .footer-menu .active {
-  color: #64f4ac;
+  color: #04dbdb;
   font-weight: 900;
 }
 
@@ -859,7 +865,7 @@ body::selection {
 }
 
 .footer-menu li a:hover {
-  color: #64f4ac;
+  color: #04dbdb;
   font-weight: 900;
 }
 
