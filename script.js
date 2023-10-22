@@ -49,3 +49,17 @@ single_profile_card.forEach((btn, index) => {
 function myfunction(){
     preloder.style.display = "none";
 }
+
+//Responsive script
+// let burger = document.querySelector('.burger');
+// let mainMenu = document.querySelector('.navbar-menu');
+// let close = document.querySelector('.close');
+
+// burger.addEventListener('click' , ()=>{
+//     mainMenu.style.display = 'flex';
+//     mainMenu.style.top ='0';
+// })
+
+// close.addEventListener('click' , ()=>{
+//     mainMenu.style.top ='-100';
+// })

@@ -1,0 +1,460 @@
+@media only screen and (max-width :1400px) {
+    #latest-works {
+        padding: 80px;
+    }
+
+    .project-img-3 {
+        width: 37vw;
+    }
+}
+
+@media only screen and (max-width :1250px) {
+    #latest-works {
+        padding: 35px;
+    }
+
+    #footer {
+        padding: 50px;
+    }
+}
+
+@media only screen and (max-width :1150px) {
+    #header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .res-right {
+        position: absolute;
+        right: 7%;
+        line-height: 36px;
+        top: 0%;
+    }
+
+    .social-media {
+        flex-direction: column;
+    }
+
+    #content-body {
+        height: 100vh;
+        padding: 0px 0 20px 0px;
+        flex-direction: column-reverse;
+    }
+
+    .circle {
+        left: 175px;
+        top: 400px;
+    }
+
+    .hoodie-guy,
+    .background-circle {
+        width: 450px;
+        height: 450px;
+        margin-bottom: 34px;
+    }
+
+    .body-tail {
+        padding: 0px 0 0 0;
+        justify-content: end;
+    }
+
+    .body-title h1 {
+        padding: 0;
+    }
+
+    .body-title p {
+        font-size: 10px;
+        padding: 0px;
+        line-height: 16px;
+    }
+
+    .introduction-text {
+        padding-right: 30px;
+    }
+
+    .design-card {
+        max-width: 70%;
+    }
+
+    .project-info-second {
+        display: block;
+    }
+
+    .project-info-first {
+        display: none;
+    }
+
+    #latest-works {
+        flex-direction: column;
+    }
+
+    .project-card {
+        min-width: 80%;
+    }
+
+    .right-project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-img-2 {
+        width: 404px;
+        height: 30vh;
+        left: 207px;
+    }
+
+    .project-img-1 {
+        height: 35vw;
+        top: 80px;
+        left: 80px;
+    }
+
+    .project-img-3 {
+        width: 58vw;
+        left: 120px;
+    }
+
+    .skills {
+        padding: 40px 10px;
+    }
+
+    #footer {
+        padding: 20px;
+    }
+
+    .footer-left {
+        width: 60%;
+    }
+
+    .footer-email-intro h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width :850px) {
+
+    .res-right {
+        position: unset;
+        line-height: 0;
+    }
+
+    .social-media {
+        flex-direction: row;
+    }
+
+    .body-title h1 {
+        font-size: 30px;
+    }
+
+    .introduction-text h2 {
+        font-size: 25px;
+    }
+
+    .introduction-text h4 {
+        font-size: 14px;
+    }
+
+    .introduction-text p {
+        font-size: 15px;
+    }
+
+    #latest-works {
+        padding: 0;
+    }
+
+    .project-info-second {
+        text-align: center;
+    }
+
+    #footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-title {
+        display: none;
+    }
+    .footer-last{
+        display: flex;
+        margin-top: 10px;
+    }
+    .footer-left {
+        width: 90%;
+    }
+
+    .email-form {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .footer-right {
+        padding: 70px 10px 15px 10px;
+        align-items: center;
+    }
+
+    .footer-menu li a {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width : 650px) {
+
+    /* .burger {
+        display: block;
+    }
+
+    .navbar-menu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+        transition: top 1s ease;
+        display: none;
+    }
+
+    .close {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    } */
+    #header {
+        gap: 6px;
+        padding: 5px 0px;
+    }
+
+    .navbar-menu li {
+        padding: 0 12px;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .hoodie-guy {
+        top: 0;
+    }
+
+    .body-title h1 {
+        font-size: 25px;
+    }
+
+    .body-tail p {
+        font-size: 12px;
+        font-weight: 400;
+        padding: 0 13px 0 5px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    #content-body {
+        height: 93vh;
+    }
+
+    .design-card p {
+        font-size: 0.7rem;
+    }
+
+    .design-card div h3 {
+        font-size: 0.9rem;
+    }
+
+    i {
+        font-size: 1rem;
+    }
+
+    .project-card {
+        min-height: 50vh;
+    }
+
+    .project-img-2 {
+        width: 300px;
+        height: 22vh;
+        left: 22%;
+    }
+
+    .project-img-3 {
+        width: 75vw;
+        left: 8%;
+    }
+
+    .project-img-1 {
+        height: 40vw;
+        top: 80px;
+        left: 8%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    .hoodie-guy,
+    .background-circle {
+        width: 365px;
+        height: 370px;
+    }
+
+    .body-title h1 {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 20px 0 0 0;
+    }
+
+    #content-body {
+        height: 80vh;
+    }
+
+    .introduction-text h2 {
+        font-size: 18px;
+        margin: 0;
+        line-height: 40px;
+    }
+
+    .introduction-text p {
+        font-size: 13px;
+    }
+
+    .introduction-text {
+        padding-right: 10px;
+    }
+
+    .project-card-2 {
+        width: 50vw;
+    }
+
+    .project-card .title {
+        flex-direction: column;
+    }
+
+    .project-card .title h3 {
+        margin-bottom: 10px;
+    }
+
+    .project-img-2 {
+        width: 71%;
+        height: 15vh;
+        left: 22%;
+        top: 35px;
+    }
+
+    .project-card {
+        min-height: 40vh;
+    }
+
+    .project-img-1 {
+        height: 45vw;
+        top: 30px;
+    }
+
+    .project-img-3 {
+        width: 70vw;
+        left: 7%;
+        top: 2%;
+    }
+
+    .navbar-menu li a {
+        font-size: 0.9rem;
+    }
+
+    .skills h1 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .footer-right {
+        padding-top: 20px;
+    }
+
+    .footer-email-intro {
+        align-items: center;
+    }
+
+    .footer-email-intro h3 {
+        font-size: 1.1rem;
+    }
+
+    .footer-email-intro h6 {
+        font-size: 0.9rem;
+    }
+
+}
+
+@media only screen and (max-width:400px) {
+
+    .body-title p {
+        font-size: 10px;
+        padding: 0px 0;
+        line-height: 18px;
+    }
+
+    .body-title h1 {
+        font-size: 15px;
+    }
+
+    .hoodie-guy,
+    .background-circle {
+        width: 300px;
+        height: 300px;
+    }
+
+    .navbar-menu li a {
+        font-size: 0.8rem;
+    }
+
+    .navbar-menu li {
+        padding: 0 5px;
+    }
+
+    .introduction-text {
+        padding: 20px;
+    }
+
+    #introduction {
+        flex-wrap: wrap;
+    }
+
+    .project-card {
+        padding: 0px;
+    }
+
+    .latest-work-title h3 {
+        font-size: 2rem;
+    }
+
+    .latest-work-title p {
+        font-size: 0.7rem;
+    }
+
+    .body-part-1 {
+        padding: 8px;
+    }
+
+    .skill-intro {
+        margin: 0px;
+    }
+
+    .footer-menu li a {
+        font-size: 1rem;
+    }
+    .footer-right{
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width:330px) {
+    .project-card-3 {
+        min-height: 30vh;
+    }
+
+    .skill-card h2 {
+        font-size: 20px;
+    }
+}
