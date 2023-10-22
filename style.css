@@ -8,7 +8,14 @@
   font-family: "Raleway", sans-serif;
   font-family: "Source Code Pro", monospace;
 }
-
+#loading{
+  height: 100vh;
+  width: 100%;
+  background:black url('assets/sawan.gif') no-repeat center;
+  z-index: 100;
+  background-size: 24rem;
+  transition: all 0.5s ease-out;
+}
 html {
   scroll-behavior: smooth;
 }

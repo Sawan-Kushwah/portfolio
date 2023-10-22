@@ -42,3 +42,10 @@ single_profile_card.forEach((btn, index) => {
         });
     });
 });
+
+ //PreLoder
+ var preloder = document.getElementById("loading");
+
+function myfunction(){
+    preloder.style.display = "none";
+}
