@@ -175,10 +175,14 @@
     .footer-title {
         display: none;
     }
-    .footer-last{
+
+    .footer-last {
         display: flex;
-        margin-top: 10px;
+        justify-content: center;
+        background: #021d2d;
+        padding: 20px;
     }
+
     .footer-left {
         width: 90%;
     }
@@ -444,8 +448,22 @@
     .footer-menu li a {
         font-size: 1rem;
     }
-    .footer-right{
+
+    .footer-right {
         padding: 0px;
+    }
+
+    .developer-intro p {
+        font-size: 10px;
+    }
+
+    .skill-card img {
+        height: 85px;
+    }
+
+    .skill-card {
+        height: 280px;
+        width: 280px;
     }
 }
 
@@ -456,5 +474,10 @@
 
     .skill-card h2 {
         font-size: 20px;
+    }
+
+    .developer-intro p {
+        padding: 5px 5px;
+        font-size: 9px;
     }
 }
