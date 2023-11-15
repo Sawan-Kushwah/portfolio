@@ -231,6 +231,9 @@ body::selection {
   color: #0077b5;
 }
 
+.social-media li:nth-child(2):hover i {
+  color: gray;
+}
 .social-media li:nth-child(3):hover i {
   color: #ea4335;
 }
@@ -898,15 +901,15 @@ footer-email-intro a{
   color: #0072b1;
 }
 
+.social-icons a:nth-child(2) i:hover {
+  color: gray;
+}
+
 .social-icons a:nth-child(3) i:hover {
   color: #ea4335;
 }
 
 .social-icons a:nth-child(4) i:hover {
-  color: #00acee;
-}
-
-.social-icons a:nth-child(5) i:hover {
   color: transparent;
   background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
   background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
@@ -916,8 +919,8 @@ footer-email-intro a{
   -webkit-background-clip: text;
 }
 
-.social-icons a:nth-child(6) i:hover {
-  color: #3b5998;
+.social-icons a:nth-child(5) svg path:hover{
+  fill: #E7A41F;
 }
 
 
