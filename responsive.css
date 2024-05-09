@@ -74,6 +74,7 @@
 
     .design-card {
         max-width: 70%;
+        padding: 10px;
     }
 
     .project-info-second {
@@ -273,7 +274,7 @@
     }
 
     i {
-        font-size: 1rem;
+        font-size: 1.7rem;
     }
 
     .project-card {
@@ -313,7 +314,7 @@
     }
 
     #content-body {
-        height: 80vh;
+        height: 90vh;
     }
 
     .introduction-text h2 {
@@ -327,7 +328,8 @@
     }
 
     .introduction-text {
-        padding-right: 10px;
+        padding-left: 10px;
+
     }
 
     .project-card-2 {
@@ -389,6 +391,10 @@
         font-size: 0.9rem;
     }
 
+    .design-card {
+        max-width: 100%;
+    }
+
 }
 
 @media only screen and (max-width:400px) {
@@ -433,6 +439,10 @@
         font-size: 2rem;
     }
 
+    #latest-works {
+        padding: 4px;
+    }
+
     .latest-work-title p {
         font-size: 0.7rem;
     }
@@ -464,6 +474,27 @@
     .skill-card {
         height: 280px;
         width: 280px;
+    }
+
+    .max-400-mx-0 {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    #footer {
+        padding: 3px;
+    }
+
+    .footer-email-intro h6 {
+        font-size: 0.7rem;
+    }
+
+    .social-media li {
+        padding: 0 8px;
+    }
+
+    .all-projects {
+        margin-top: 16% !important;
     }
 }
 

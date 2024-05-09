@@ -234,8 +234,9 @@ body::selection {
 .social-media li:nth-child(2):hover i {
   color: gray;
 }
+
 .social-media li:nth-child(3):hover i {
-  color: #ea4335;
+  color: #0077b5;
 }
 
 .social-media li:hover a {
@@ -382,7 +383,7 @@ body::selection {
 }
 
 /* ----------INTRODUCTION---------- */
-#introduction {
+#aboutMePage {
   display: flex;
   justify-content: space-between;
   /* padding: 100px; */
@@ -460,6 +461,10 @@ body::selection {
   text-underline-offset: 5px;
 }
 
+.design-card.active .cardHeading {
+  color: black;
+}
+
 .introduction-text {
   display: block;
   min-width: 50%;
@@ -489,11 +494,11 @@ body::selection {
 
 /* ----------LATEST WORKS---------- */
 #latest-works {
-  min-height: 150vh;
+  min-height: 100vh;
   background: linear-gradient(#063d4b, #042b35);
-  padding: 150px;
+  padding: 100px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -684,8 +689,8 @@ body::selection {
 
 .skill-intro {
   height: 16%;
-  width: 90%;
-  padding: 20px;
+  width: 100%;
+  padding: 10px;
   margin-top: 20px;
   flex-direction: row;
 }
@@ -726,7 +731,6 @@ body::selection {
   flex-direction: row;
   padding: 100px;
   background: linear-gradient(#063541, #01151a);
-  height: 100vh;
 }
 
 .footer-left {
@@ -851,7 +855,7 @@ body::selection {
   margin: 10px 0;
 }
 
-footer-email-intro a{
+footer-email-intro a {
   text-decoration: none;
 }
 
@@ -909,6 +913,7 @@ footer-email-intro a{
   color: #ea4335;
 }
 
+
 .social-icons a:nth-child(4) i:hover {
   color: transparent;
   background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
@@ -919,8 +924,8 @@ footer-email-intro a{
   -webkit-background-clip: text;
 }
 
-.social-icons a:nth-child(5) svg path:hover{
-  fill: #E7A41F;
+.social-icons a:nth-child(5) svg:hover {
+  fill: #079e8d;
 }
 
 
@@ -947,9 +952,12 @@ i {
   display: none;
 }
 
-.project-info-second{
+
+
+.footer-last {
   display: none;
 }
-.footer-last{
-  display: none;
+
+.primary-color {
+  background: #04dbdb;
 }
