@@ -388,7 +388,7 @@ body::selection {
   justify-content: space-between;
   /* padding: 100px; */
   background: linear-gradient(#063541, #074453);
-  min-height: 95vh;
+  min-height: 65vh;
   align-items: center;
 }
 
